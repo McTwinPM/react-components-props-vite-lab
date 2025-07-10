@@ -1,1 +1,13 @@
 import React from "react";
+import blogData from "./src/data/blog";
+
+function About(image, about) {
+    return (
+        <aside>
+            <img src={image} alt="blog logo" />
+            <p>{about}</p>
+        </aside>
+    )
+}
+
+export default About;
