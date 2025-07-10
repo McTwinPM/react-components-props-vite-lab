@@ -9,12 +9,12 @@ console.log(blogData);
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header name={blogData.name} />
       <About 
-        image="https://via.placeholder.com/150"
-        aboutText="This is a simple blog application built with React."
+        image={blogData.image}
+        about={blogData.about}
       />
-      <ArticleList />
+      <ArticleList posts={blogData.posts}/>
     </div>
   );
 }

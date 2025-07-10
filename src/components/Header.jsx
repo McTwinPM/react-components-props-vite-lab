@@ -1,7 +1,7 @@
 import React from "react";
 import blogData from "../data/blog";
 
-function Header(name) {
+function Header({ name }) {
     return (
         <header>
             <h1>{name}</h1>
