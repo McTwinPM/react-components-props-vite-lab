@@ -1,5 +1,5 @@
 import React from "react";
-import blogData from "./src/data/blog";
+import blogData from "../data/blog";
 
 function Header(name) {
     return (
